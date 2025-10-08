@@ -14,7 +14,7 @@ const config = {
     "entryFormCtaText": "Enter My Name Now!",
     "name": "Courtside Dreams Giveaway",
     "successModalHeaderText": "You’re in the Draw!",
-    "successModalMainMessage": "Your entry for the <strong>Courtside Dreams Giveaway</strong> is in! Winner will be announced Nov 26, 2025 and notified by email. Good luck!",
+    "successModalMainMessage": "Your entry for the Courtside Dreams Giveaway is in! Winner will be announced Nov 26, 2025 and notified by email. Good luck!",
     "successModalEmailPrompt": "Watch your email on Nov 26, 2025—check inbox and spam so you don’t miss it."
   },
   "settings": {
@@ -28,16 +28,10 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
-    "facebookPixelId": "1057475448873422",
+    "facebookPixelId": "536234429581639",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "You're In the Running!",
-    "mainMessage": "Your entry for the <strong>Courtside Dreams Giveaway</strong> is in. We will draw the winner on Nov 26, 2025 and email them. Good luck!",
-    "socialPromptText": "Follow @juliankashani on Instagram and Facebook for updates and the winner post."
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -137,8 +131,6 @@ const config = {
     ]
   },
   "rules": {
-    "finePrintText": "Please read the fine print before entering. Ontario residents 18+ only.",
-    "showTipsSection": true,
     "faq": [
       {
         "q": "Who can enter?",
@@ -175,6 +167,8 @@ const config = {
       "Follow @juliankashani for updates and winner news.",
       "Share this with your partner or a friend who loves the Raptors."
     ],
+    "finePrintText": "Please read the fine print before entering. Ontario residents 18+ only.",
+    "showTipsSection": true,
     "fairSelectionInfo": {
       "title": "Fair and Random Winner Selection",
       "text": "We use a random draw. Every valid entry has the same chance. One winner. No tricks."
@@ -195,7 +189,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1757969005264_0",
+      "id": "q_auto_1759943690231_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -217,7 +211,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757969005264_1",
+      "id": "q_auto_1759943690231_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -239,7 +233,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1757969005264_2",
+      "id": "q_auto_1759943690231_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -261,6 +255,18 @@ const config = {
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "You're In the Running!",
+    "mainMessage": "Your entry for the <strong>Courtside Dreams Giveaway</strong> is in. We will draw the winner on Nov 26, 2025 and email them. Good luck!",
+    "socialPromptText": "Follow @juliankashani on Instagram and Facebook for updates and the winner post."
+  },
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/JulianKashaniRealtor",
@@ -273,8 +279,8 @@ const config = {
       "email": "jk@property.ca"
     },
     "footerDisclaimer": "This giveaway is sponsored by Julian Kashani, Real Estate Agent, and is not sponsored by or affiliated with the Toronto Raptors, Charlotte Hornets, the NBA, Scotiabank Arena, Property.Ca Inc., or Meta. No purchase necessary. Open to Ontario residents, 18+. One entry per person. Contest runs Oct 6–Nov 25, 2025. Winner selected at random on Nov 26, 2025. Tickets have an approximate total value of $450.",
-    "organizerLogoUrl": "",
-    "secondaryLogoUrl": "",
+    "organizerLogoUrl": "https://images.squarespace-cdn.com/content/v1/5f80c7c14e8fef5fc1fb9a3d/1604940254317-K8272CWFFET2GRYN0BXA/Property_logo_W.png",
+    "secondaryLogoUrl": "https://placehold.co/10.png",
     "secondaryLogoAlt": "Property.Ca Brokerage Logo",
     "organizerName": "Julian Kashani",
     "brokerageName": "Property.Ca",
@@ -288,6 +294,6 @@ const config = {
     "repoUrl": "https://github.com/arslvn93/Giveaway-144",
     "netlifyUrl": "http://Giveaway-144.netlify.app",
     "netlifyId": "",
-    "tag": "Raptors Giveaway"
+    "tag": "NBA Raptors Giveawaye"
   }
 };
